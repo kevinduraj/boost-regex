@@ -1,11 +1,14 @@
-#include <iostream>
-//include<vector>
-#include<boost/algorithm/string/split.hpp>
-#include<boost/algorithm/string.hpp>
+#include "SplitString.h"
+#include<iostream>
 
 using namespace std;
 
 int main() {
-    cout << "Hello, World!" << endl;
+
+    SplitString * ss = new SplitString();
+    ss->regular_string();
+    delete ss;
+
     return 0;
+
 }

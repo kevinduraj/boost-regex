@@ -28,7 +28,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp SplitString.cpp SplitString.h)
 add_executable(boost_regex ${SOURCE_FILES})
 
 #----------------------------------------------------------------------------#
